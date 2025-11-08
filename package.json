@@ -1,0 +1,18 @@
+{
+  "name": "dsa1",
+  "version": "1.0.0",
+  "description": "A collection of DSA programs and practice exercises.",
+  "main": "Workout.js",
+  "scripts": {
+    "start": "node Workout.js",
+    "dev": "nodemon Workout.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Midhlaj vk <muhammedmidhlaj358@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
