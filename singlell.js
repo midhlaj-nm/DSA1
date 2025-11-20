@@ -121,6 +121,19 @@ class LinkedList{
             }
         }
     }
+    reversell(){
+        let current = this.head
+        let prev = null
+        let next = null
+
+        while(current){
+            next = current.next
+            current.next = prev
+            prev = current
+            current = next
+        }
+        this.head = prev
+    }
 }
 
 const list = new LinkedList()
@@ -132,4 +145,6 @@ list.print()
 list.ValueAtEnd(6)
 list.print()
 list.removeDup()
+list.print()
+list.reversell()
 list.print()
